@@ -1,7 +1,9 @@
 import os
-from agents import Agent,Runner, AsyncOpenAI, OpenAIChatCompletionsModel
+from agents import Agent,Runner, AsyncOpenAI, OpenAIChatCompletionsModel, set_trace_processors, 
 from dotenv import load_dotenv, find_dotenv
 import agentops
+from agents.tracing.processor_interface import TracingProcessor
+from pprint import pprint
 
 load_dotenv(find_dotenv())
 

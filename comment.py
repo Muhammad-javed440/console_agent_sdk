@@ -6,4 +6,5 @@
 # cd ..
 # cd ..
 # uv add openai-agents
+# uv add agentops
 # uv run hello.py
